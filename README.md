@@ -1,2 +1,2 @@
 # QuickMeal.com
-website to order food online
+Fully Responsive Website To Order Food Online
