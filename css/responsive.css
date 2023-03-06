@@ -6,7 +6,7 @@
         font-size: 2rem;
     }
 
-    /* Navbar Section*/
+    /* Navbar Section */
 
     #navbar::before {
         height: 93%;
@@ -24,19 +24,19 @@
         font-size: 0.8rem;
     }
 
-    /* Home Section*/
+    /* Home Section */
 
     #home p {
         font-size: 1.2rem;
     }
 
-    /* Services Section*/
+    /* Services Section */
 
     #services {
         flex-direction: column;
     }
 
-    /* Clients Section*/
+    /* Clients Section */
 
     #clients {
         flex-wrap: wrap;
@@ -51,9 +51,13 @@
         height: 100px;
     }
 
+    /* Contact Section */
+
     #contact {
         top: 145px;
     }
+
+    /* Footer Section */
 
     footer {
         position: relative;
@@ -63,6 +67,8 @@
 }
 
 @media only screen and (max-width: 832px) {
+
+    /* Navbar Section */
 
     #navbar ul li {
         font-size: 0.8rem;
@@ -85,6 +91,8 @@
         font-size: 0.5rem;
     }
 
+    /* Home Section */
+
     #home h1 {
         font-size: 1.3rem;
     }
@@ -100,6 +108,8 @@
         border-radius: 15px;
     }
 
+    /* Clients Section */
+
     .client-item {
         margin: 3px;
         padding: 6px;
@@ -109,10 +119,14 @@
         height: 70px;
     }
 
+    /* Contact Section */
+
     #contact {
         position: relative;
         top: 110px;
     }
+
+    /* Footer Section */
 
     footer {
         position: relative;
@@ -122,10 +136,14 @@
 }
 
 @media only Screen and (min-width: 562px) and (max-width: 862px) {
+    /* Contact Section */
+
     #contact {
         position: relative;
         top: 190px;
     }
+
+    /* Footer Section */
 
     footer {
         position: relative;
