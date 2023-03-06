@@ -1,6 +1,24 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    font: inherit;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
 }
 
 html {
@@ -217,7 +235,7 @@ html {
 
 #contact {
     position: relative;
-    top: 50px;
+    padding: 45px 0px;
     margin: 16px 14px;
 }
 
@@ -225,10 +243,10 @@ html {
     content: "";
     position: absolute;
     background: url('../Images/contact.jpg') no-repeat center center/cover;
-    height: 100%;
+    height: 103%;
     width: 100%;
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.7;
     border-radius: 23px;
 }
 
@@ -257,11 +275,16 @@ html {
     border-radius: 9px;
     font-size: 1.2rem;
     font-family: 'Courgette', cursive;
+    background: transparent;
 }
 
 footer {
+    position: relative;
+    bottom: 0px;
     font-family: 'Courgette', cursive;
-    background: black;
-    color: white;
+    background: transparent;
+    color: black;
     padding: 9px 20px;
+    font-weight: bolder;
+    font-style: italic;
 }
